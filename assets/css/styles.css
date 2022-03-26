@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  width: 100vw;
+  height: 100vh;
+  background: red;
+  background-image: url(/assets/images/beach.jpg);
+}
+
+.nav {
+  padding: 50px 100px;
+  display: flex;
+  flex: row;
+  justify-content: space-between;
+}
+
+.nav .icon a {
+  color: red;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+/*
+.icon > img {
+  display: block;
+  margin: auto;
+  width: 90px;
+  padding-left: 40px;
+}
+*/
+
+.nav .menu {
+  margin: auto;
+}
+
+.nav .menu a {
+  color: black;
+  text-decoration: none;
+  padding-left: 40px;
+}
